@@ -1,0 +1,168 @@
+.section1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sec1 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    .text {
+        width: 500px;
+    }
+
+    p {
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: xxx-large;
+        font-weight: lighter;
+        margin-bottom: 30px;
+    }
+}
+
+.sec2 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    .text {
+        width: 500px;
+    }
+
+    p {
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: xxx-large;
+        font-weight: lighter;
+        margin-bottom: 30px;
+    }
+}
+
+.sec3 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    .text {
+        width: 500px;
+    }
+
+    p {
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: xxx-large;
+        font-weight: lighter;
+        margin-bottom: 30px;
+    }
+}
+
+.img1 {
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .section1 {
+        .sec1 {
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            .img1 {
+                width: 250px;
+                height: 300px;
+
+            }
+
+            .text {
+                width: 250px;
+            }
+
+            p {
+                font-weight: lighter;
+            }
+
+            h3 {
+                font-size: x-large;
+                font-weight: lighter;
+                margin-bottom: 30px;
+            }
+        }
+
+        .sec2 {
+            height: auto;
+            flex-direction: column-reverse;
+            gap: 50px;
+            .img1 {
+                width: 250px;
+                height: 300px;
+
+            }
+
+            .text {
+                width: 250px;
+            }
+
+            p {
+                font-weight: lighter;
+            }
+
+            h3 {
+                font-size: x-large;
+                font-weight: lighter;
+                margin-bottom: 30px;
+            }
+        }
+
+        .sec3 {
+            height: auto;
+            flex-direction: column-reverse;
+            gap: 50px;
+            .img1 {
+                width: 250px;
+                height: 300px;
+
+            }
+
+            .text {
+                width: 250px;
+            }
+
+            p {
+                font-weight: lighter;
+            }
+
+            h3 {
+                font-size: x-large;
+                font-weight: lighter;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+
+}

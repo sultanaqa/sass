@@ -88,12 +88,15 @@ nav .icon {
   align-items: center;
   gap: 100px;
 }
-.sec1 h3, .sec1 p {
-  width: 90%;
+.sec1 .text {
+  width: 500px;
+}
+.sec1 p {
+  font-weight: lighter;
 }
 .sec1 h3 {
   font-size: xxx-large;
-  font-weight: 100;
+  font-weight: lighter;
   margin-bottom: 30px;
 }
 
@@ -106,12 +109,15 @@ nav .icon {
   align-items: center;
   gap: 100px;
 }
-.sec2 h3, .sec2 p {
-  width: 90%;
+.sec2 .text {
+  width: 500px;
+}
+.sec2 p {
+  font-weight: lighter;
 }
 .sec2 h3 {
   font-size: xxx-large;
-  font-weight: 100;
+  font-weight: lighter;
   margin-bottom: 30px;
 }
 
@@ -123,62 +129,95 @@ nav .icon {
   align-items: center;
   gap: 100px;
 }
-.sec3 h3, .sec3 p {
-  width: 90%;
+.sec3 .text {
+  width: 500px;
+}
+.sec3 p {
+  font-weight: lighter;
 }
 .sec3 h3 {
   font-size: xxx-large;
-  font-weight: 100;
+  font-weight: lighter;
   margin-bottom: 30px;
 }
 
 .img1 {
-  width: 300px;
-  height: 350px;
+  width: 400px;
+  height: 450px;
   border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
   .section1 .sec1 {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 50px;
   }
-  .section1 .sec1 h3, .section1 .sec1 p {
-    width: 100%;
+  .section1 .sec1 .img1 {
+    width: 250px;
+    height: 300px;
+  }
+  .section1 .sec1 .text {
+    width: 250px;
+  }
+  .section1 .sec1 p {
+    font-weight: lighter;
   }
   .section1 .sec1 h3 {
-    font-size: large;
-    font-weight: 400;
+    font-size: x-large;
+    font-weight: lighter;
     margin-bottom: 30px;
   }
   .section1 .sec2 {
-    height: 100vh;
+    height: auto;
     flex-direction: column-reverse;
     gap: 50px;
   }
-  .section1 .sec2 h3, .section1 .sec2 p {
-    width: 100%;
+  .section1 .sec2 .img1 {
+    width: 250px;
+    height: 300px;
+  }
+  .section1 .sec2 .text {
+    width: 250px;
+  }
+  .section1 .sec2 p {
+    font-weight: lighter;
   }
   .section1 .sec2 h3 {
-    font-size: large;
-    font-weight: 400;
+    font-size: x-large;
+    font-weight: lighter;
     margin-bottom: 30px;
   }
   .section1 .sec3 {
-    height: 100vh;
+    height: auto;
     flex-direction: column-reverse;
     gap: 50px;
   }
-  .section1 .sec3 h3, .section1 .sec3 p {
-    width: 100%;
+  .section1 .sec3 .img1 {
+    width: 250px;
+    height: 300px;
+  }
+  .section1 .sec3 .text {
+    width: 250px;
+  }
+  .section1 .sec3 p {
+    font-weight: lighter;
   }
   .section1 .sec3 h3 {
-    font-size: large;
-    font-weight: 100;
+    font-size: x-large;
+    font-weight: lighter;
     margin-bottom: 30px;
   }
+}
+.lastone {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
