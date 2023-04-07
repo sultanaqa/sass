@@ -1,0 +1,60 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 2;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px 40px 20px 40px;
+  opacity: 0.6;
+  >i{
+    display: none;
+  }
+
+  > ul {
+    display: flex;
+    gap: 15px;
+    li {
+        position: relative;     
+        ul {
+          transition: 500ms;
+        background-color: brown;
+        animation-name: example;
+        animation-duration: 2s;
+        opacity: 0;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px 10px 5px 10px;
+        position: absolute;
+        left: 0px;
+        top: 70px;
+        width: max-content;
+      }
+    }
+    li:hover {
+      ul {
+        top: 30px;
+        opacity: 1;
+     
+      }
+    }
+  }
+}
+@media  screen and (max-width: 850px){
+  nav{
+    display: flex;
+    justify-content: space-between;
+    >ul{
+      display: none;
+    }
+    i{
+      display: inline;
+      font-size: xx-large;
+      color:white
+    }
+  }
+}
